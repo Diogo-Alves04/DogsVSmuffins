@@ -1,3 +1,4 @@
+Markdown
 # Dogs vs. Muffins Classifier 🐶🧁
 
 This project is an image classification web application developed for the **Semester 3 - Data Dynamics** module. It addresses the challenge of distinguishing between visually similar images—specifically Chihuahuas and Muffins—using Deep Learning.
@@ -22,18 +23,20 @@ This project is an image classification web application developed for the **Seme
    git clone [https://github.com/Diogo-Alves04/DogsVSmuffins.git](https://github.com/Diogo-Alves04/DogsVSmuffins.git)
    cd DogsVSmuffins
 Create and activate a virtual environment:
+
+Bash
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
-
-
 Install dependencies:
+
+Bash
 pip install -r requirements.txt
-
-
 Run the application:
+
+Bash
 python app.py
 Access the interface at http://127.0.0.1:5000
 
