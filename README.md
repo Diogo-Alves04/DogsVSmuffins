@@ -7,14 +7,13 @@ This project is an image classification web application developed for the **Seme
 - **High-Accuracy Classification:** Built with a Convolutional Neural Network (CNN) using **TensorFlow** and **Keras**.
 - **Explainable AI (XAI):** Integrated **Grad-CAM** (Gradient-weighted Class Activation Mapping) to provide transparency by visualizing which image features (e.g., eyes, paws, texture) influenced the model's decision.
 - **Web Interface:** A user-friendly **Flask** application that allows for real-time image uploads and instant inference.
-- **CI/CD Integration:** Automated workflows via GitHub Actions to ensure continuous code quality.
+
 
 ## 🛠️ Tech Stack
-- **Languages:** Python (Main Project), R (Biweekly Tasks)
+- **Languages:** Python
 - **Deep Learning:** TensorFlow, Keras
 - **Web Framework:** Flask
 - **Computer Vision:** OpenCV (for Grad-CAM processing)
-- **Deployment/QA:** GitHub Actions (CI/CD)
 
 ## 📦 Installation & Local Setup
 
