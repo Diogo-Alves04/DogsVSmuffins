@@ -24,7 +24,7 @@ This project is an image classification web application developed for the **Seme
    cd DogsVSmuffins
 Create and activate a virtual environment:
 
-Bash
+
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
@@ -32,11 +32,11 @@ venv\Scripts\activate
 source venv/bin/activate
 Install dependencies:
 
-Bash
+
 pip install -r requirements.txt
 Run the application:
 
-Bash
+
 python app.py
 Access the interface at http://127.0.0.1:5000
 
