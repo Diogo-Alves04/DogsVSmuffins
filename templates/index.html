@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dogs vs Muffins - Explainable AI</title>
+    <style>
+        body { font-family: Arial; text-align: center; background: #f4f4f4; }
+        img { width: 300px; margin: 10px; border-radius: 8px; }
+        .container { background: white; padding: 20px; margin: 50px auto; width: 70%; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1> Dogs vs Muffins</h1>
+    <p>Explainable AI with Grad-CAM</p>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+        <h3>Confidence: {{ confidence }}%</h3>
+
+        <h3>Original Image</h3>
+        <img src="{{ img_path }}">
+
+        <h3>Grad-CAM Heatmap</h3>
+        <img src="{{ heatmap_path }}">
+        <br>
+        <a href="{{ heatmap_path }}" download>Download Heatmap</a>
+    {% endif %}
+</div>
+
+</body>
+</html>
